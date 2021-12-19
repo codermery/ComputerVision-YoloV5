@@ -36,4 +36,17 @@ Coco128 verisinin eğitim sonuçları:
 
 ![image](https://user-images.githubusercontent.com/59237081/146680430-3049d94b-bd15-4fec-b97c-51d72b3b4404.png)
 
+Başlamak için :
+
+!git clone https://github.com/ultralytics/yolov5  # clone
+
+%cd yolov5
+
+%pip install -qr requirements.txt  # install
+
+import torch
+
+from yolov5 import utils
+
+display = utils.notebook_init()  # checks
 
